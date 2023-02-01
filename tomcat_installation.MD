@@ -44,7 +44,7 @@ Access tomcat application from browser on port 8090
    #search for context.xml
    find / -name context.xml
    ```
-1. above command gives 3 context.xml files. comment (<!-- & -->) `Value ClassName` field on files which are under webapp directory. 
+1. above command gives 3 context.xml files. comment (<!-- & -->) `Valve ClassName` field on files which are under webapp directory. 
 After that restart tomcat services to effect these changes
    ```sh 
    tomcatdown
